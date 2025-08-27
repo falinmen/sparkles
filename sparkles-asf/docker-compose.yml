@@ -4,7 +4,7 @@ services:
     image: justarchi/archisteamfarm:latest
     container_name: sparkles-asf
     ports:
-      - "1242:1242"
+      - "1260:1260"
     volumes:
       - ./data/config:/app/config:Z
       - ./data/plugins:/app/plugins:Z
