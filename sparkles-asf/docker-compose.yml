@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  archisteamfarm:
+    image: justarchi/archisteamfarm:latest
+    container_name: sparkles-asf
+    ports:
+      - "1242:1242"
+    volumes:
+      - ./data/config:/app/config:Z
+      - ./data/plugins:/app/plugins:Z
+    environment:
+      - ASF_USER=1000  # UID пользователя Umbrel (по умолчанию 1000)
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+    restart: unless-stopped
+    networks:
+      - umbrel_main_network
+networks:
+  umbrel_main_network:
+    external: true
