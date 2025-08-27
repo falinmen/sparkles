@@ -11,7 +11,7 @@ website: https://github.com/JustArchiNET/ArchiSteamFarm
 dependencies: []
 repo: https://github.com/JustArchiNET/ArchiSteamFarm
 support: https://github.com/JustArchiNET/ArchiSteamFarm/wiki
-port: 1242
+port: 1260
 gallery:
   - https://raw.githubusercontent.com/JustArchiNET/ArchiSteamFarm/main/.github/ASF.png
 path: ""
