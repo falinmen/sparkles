@@ -13,7 +13,7 @@ repo: https://github.com/JustArchiNET/ArchiSteamFarm
 support: https://github.com/JustArchiNET/ArchiSteamFarm/wiki
 port: 1260
 gallery:
-  - https://raw.githubusercontent.com/JustArchiNET/ArchiSteamFarm/main/.github/ASF.png
+  - https://github.com/falinmen/sparkles/blob/main/sparkles-asf/pngtree-asf-file-document-icon-png-image_935116.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
