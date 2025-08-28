@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   archisteamfarm:
-    image: supersandro2000/archisteamfarm:latest
+    image: justarchi/archisteamfarm:latest
     container_name: sparkles-asf
     ports:
       - "1260:1260"
